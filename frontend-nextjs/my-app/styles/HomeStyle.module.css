@@ -1,0 +1,63 @@
+.container {
+  background-color: var(--background-grey);
+  display: flex;
+  flex-direction: column;
+  height: 85.1vh;
+}
+
+.block {
+  display: flex;
+  height: 100%;
+}
+
+.subImg {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subImg img {
+  height: 30vw;
+}
+
+.subBlock {
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.subBlock ul {
+  width: 70%;
+  list-style: none;
+}
+
+.smallTxt {
+  color: var(--red);
+  font-weight: bold;
+  font-size: 1.25vw;
+  position: relative;
+}
+
+.largeTxt {
+  color: var(--deep-grey);
+  font-size: 5vw;
+}
+
+.greyTxt {
+  color: var(--grey);
+  line-height: 20px;
+  font-family: var(--font-family);
+  font-size: 1.2vw;
+  line-height: 1.5vw;
+}
+
+.liButton button {
+  padding: 1vw 2vw;
+  margin-top: 1vw;
+  background-color: var(--red);
+  color: var(--white);
+  border: 0px;
+  font-family: var(--font-family);
+  font-size: 1.1vw;
+}

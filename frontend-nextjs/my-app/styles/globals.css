@@ -1,0 +1,17 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Flex:opsz,wght@8..144,300&display=swap");
+
+:root {
+  --main-color: #007bff;
+  --font-size: 16px;
+  --red: #a82332;
+  --white: #f2f0f0;
+  --grey: #4d4d4d;
+  --deep-grey: #272727;
+  --mid-grey: #2f2f2f;
+  --light-grey: #888888;
+  --background-grey: white;
+  --font-family: "Roboto", sans-serif;
+}

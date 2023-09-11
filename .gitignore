@@ -1,0 +1,4 @@
+.env
+credentials
+node_modules
+config.js
